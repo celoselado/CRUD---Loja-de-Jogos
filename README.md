@@ -1,2 +1,2 @@
-# CRUD---Loja-de-Jogos
+# CRUD-Loja-de-Jogos
 CRUD desenvolvido para uma loja de jogos
