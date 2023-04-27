@@ -39,6 +39,18 @@ public class Jogo {
 	@ManyToOne
 	@JsonIgnoreProperties("jogo")
 	private Genero genero;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("jogo")
+	private Usuario usuario;
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
 
 	public Long getId() {
 		return id;
